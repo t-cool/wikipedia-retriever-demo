@@ -1,8 +1,4 @@
-from langchain_community.retrievers import WikipediaRetriever
-from IPython.display import display, JSON
+# WikipediaRetriever-demo
 
-retriever = WikipediaRetriever()
+WikipediaRetriever のデモです。
 
-docs = retriever.get_relevant_documents(query="HUNTER X HUNTER")
-
-display(JSON(docs))
